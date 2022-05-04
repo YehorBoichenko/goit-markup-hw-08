@@ -2,9 +2,6 @@
 //   padding-bottom: 47px;
 // }
 
-.feature__title {
-  display: none;
-}
 .feature__list {
   @media screen and(min-width:768px) {
     display: flex;
@@ -39,7 +36,7 @@
   margin-bottom: 30px;
 }
 
-.feature__list .title {
+.feature__title {
   color: var(--title-text-color);
   margin-top: 0px;
   margin-bottom: 10px;
@@ -48,6 +45,10 @@
   line-height: 1.14;
   text-transform: uppercase;
   text-align: center;
+
+  @media screen and(min-width:768px) {
+    text-align: start;
+  }
 }
 
 .feature__list .text {
