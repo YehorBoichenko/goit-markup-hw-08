@@ -280,6 +280,7 @@ h6 {
   .header-contacts {
     flex-direction: row;
     margin-left: auto;
+    gap: 30px;
   }
 }
 
