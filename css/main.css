@@ -972,10 +972,8 @@ h6 {
 
 .modal__close-btn {
   position: absolute;
-  top: 14px;
-  right: 14px;
-  width: 18px;
-  height: 18px;
+  top: 8px;
+  right: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -999,10 +997,6 @@ h6 {
 .modal__close-btn:hover, .modal__close-btn:focus {
   color: var(--accent-color);
   background-color: var(--primary-bg-t-color);
-}
-
-.modal__close-object {
-  padding-top: 5px;
 }
 
 .modal__close-icon {
