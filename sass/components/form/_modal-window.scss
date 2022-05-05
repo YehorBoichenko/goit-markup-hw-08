@@ -75,6 +75,9 @@
     background-color: var(--primary-bg-t-color);
   }
 }
+.modal__close-object {
+  padding-top: 5px;
+}
 
 .modal__close-icon {
   fill: currentColor;
